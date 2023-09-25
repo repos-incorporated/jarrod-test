@@ -1,1 +1,15 @@
+name: ESLint
 
+on:
+  pull_request:
+    types: ['opened','edited']
+  pull_request_target:
+    branches: '*'
+
+jobs:        
+  other:
+      name: "thislongname/forthisstatuscheck/nestagain/andagain"
+      runs-on: ubuntu-latest
+      steps:
+        - name: sleep
+          run: sleep 4
