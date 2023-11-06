@@ -5,6 +5,8 @@ on:
     types: ['opened','edited']
   pull_request_target:
     branches: '*'
+  push:
+    branches: '*'
 
 jobs:        
   other:
