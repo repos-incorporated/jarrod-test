@@ -1,0 +1,12 @@
+name: test
+
+on:
+  push
+  
+jobs:        
+  other:
+      name: "thislongname/forthisstatuscheck/nestagain/andagain"
+      runs-on: ubuntu-latest
+      steps:
+        - name: sleep
+          run: sleep 20
